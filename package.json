@@ -1,12 +1,13 @@
 {
-  "name": "command-gen",
+  "name": "command-generator",
   "version": "0.0.1",
-  "description": "Generate cli personal commands using a function and script",
+  "description": "Generate cli personal commands using a function and script - command-gen, command-generator",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "init:cli": "npm install -g . --force",
     "test": "mocha --reporter spec --recursive --config ./mocha.test.config.js"
   },
   "bin": {},
@@ -16,7 +17,9 @@
     "sinon": "^14.0.0"
   },
   "dependencies": {
-    
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1",
+    "yargs": "^17.5.1"
   },
   "author": "Ganesh Bhat",
   "license": "MIT"
