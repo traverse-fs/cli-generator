@@ -1,7 +1,7 @@
 {
   "name": "command-generator",
   "version": "0.0.1",
-  "description": "Generate cli personal commands using a function and script - command-gen, command-generator",
+  "description": "Generate personalised commands using Nodejs / Javascript Functions and a config file. Install: `npm install -g command-generator` - command-gen, command-generator",
   "main": "index.js",
   "directories": {
     "test": "test"
