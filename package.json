@@ -1,0 +1,12 @@
+{
+  "name": "cligenerator",
+  "version": "0.0.1",
+  "description": "Generatr cli personal commands using a function and script",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --recursive --config ./mocha.test.config.js"
+  },
+  "bin": {},
+  "author": "Ganesh Bhat",
+  "license": "MIT"
+}
